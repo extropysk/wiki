@@ -14,6 +14,7 @@ export default defineConfig({
       social: {
         github: "https://github.com/extropysk",
         linkedin: "https://www.linkedin.com/company/extropysk",
+        instagram: "https://instagram.com/extropy.sk",
       },
       sidebar: [
         {
