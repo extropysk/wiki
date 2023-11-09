@@ -24,7 +24,7 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
-      customCss: ["./src/tailwind.css"],
+      customCss: ["@fontsource/inter", "./src/tailwind.css"],
     }),
     tailwind({ applyBaseStyles: false }),
   ],
