@@ -7,9 +7,13 @@ export default defineConfig({
   site: "https://wiki.extropy.sk",
   integrations: [
     starlight({
-      title: "Docs with Tailwind",
+      title: "wiki.extropy.sk",
+      logo: {
+        src: "./src/assets/logo.svg",
+      },
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/extropysk",
+        linkedin: "https://www.linkedin.com/company/extropysk",
       },
       sidebar: [
         {
